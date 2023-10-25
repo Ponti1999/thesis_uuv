@@ -124,4 +124,4 @@ Each axis of the body frame fbg is named according to the nomenclature defined
 by the Society of Naval Architects and Marine Engineers (SNAME) [15]
 The vector n is named the Surge Axis, e is the Sway Axis and d is the Heave Axis.
 
-![Alt text](image-5.png)
+![Alt text](./note_2_img/image-5.png)

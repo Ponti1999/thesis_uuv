@@ -70,7 +70,7 @@ This increase can be calculated by equating the increase in displacement volume 
 
 |   |ship is “wall-sided”|hence|increase in draft is|
 |---|---|---|---|
-|![Alt text](image-15.png)|![Alt text](image-16.png)|![Alt text](image-17.png)|![Alt text](image-18.png)|
+|![Alt text](./book_1_img/image-15.png)|![Alt text](./book_1_img/image-16.png)|![Alt text](./book_1_img/image-17.png)|![Alt text](./book_1_img/image-18.png)|
 
 The centroid of the underwater body may shift, both vertically and longitudinally, with such a change in medium. </br>
 (In particular, an increase in draft as a result of a decrease in fluid density causes the vertical location of the center of buoyancy to rise with respect to the keel as a result of the increase in displacement volume, V .)
@@ -96,7 +96,7 @@ If differences occur, as is usually the case, the error is assumed to be in the 
 # Section 4
 ## Integrating Rules and Methods:
 
-![Curve to be integrated](image-37.png)
+![Curve to be integrated](./book_1_img/image-37.png)
 
 ### General:
 
@@ -109,7 +109,7 @@ Areas of the immersed cross sectional area at each body plan station and of each
 ### Formulas For Area, Moment, Centroid, Moment of Intertia, and Gyradiur:
 
 - Areas</br>
-![Alt text](image-30.png)
+![Alt text](./book_1_img/image-30.png)
 
 </br>
 
@@ -117,7 +117,7 @@ Areas of the immersed cross sectional area at each body plan station and of each
 
 |   |   |   |
 |---|---|---|
-|![Alt text](image-31.png)|![Alt text](image-32.png)|![Alt text](image-33.png)|
+|![Alt text](./book_1_img/image-31.png)|![Alt text](./book_1_img/image-32.png)|![Alt text](./book_1_img/image-33.png)|
 
 </br>
 
@@ -125,7 +125,7 @@ Areas of the immersed cross sectional area at each body plan station and of each
 
 |   |   |   |
 |---|---|---|
-|![Alt text](image-34.png)|![Alt text](image-35.png)|![Alt text](image-36.png)|
+|![Alt text](./book_1_img/image-34.png)|![Alt text](./book_1_img/image-35.png)|![Alt text](./book_1_img/image-36.png)|
 
 
 </br>
@@ -183,19 +183,19 @@ In comparing ships’ hull forms, displacements and dimensions, a number of coef
 
 ### Definitions and Uses of Coefficients
 - Block Coeficient, CB. This is defined as the ratio of the volume of displacement V of the molded form up to any waterline to the volume of a rectangular prism with length, breadth and depth equal to the length, breadth and mean draft of the ship, at that waterline.</br>
-![Alt text](image-19.png)</br>
+![Alt text](./book_1_img/image-19.png)</br>
 Values of C, at design displacement may vary from about 0.36 for a fine high-speed vessel to about 0.92 for a slow and full Great Lakes bulk carrier.</br>
-![Sectional area curves for different prismatic coefficients text](image-21.png)
+![Sectional area curves for different prismatic coefficients text](./book_1_img/image-21.png)
 
 </br>
 
 - Midship Coeficient, C,. The midship section coefficient, C,, sometimes called simply midship coefficient, at any draft is the ratio of the immersed area of the midship station to that of a rectangle of breadth equal to molded breadth and depth equal to the molded draft amidships.</br>
-![Alt text](image-20.png)</br>
+![Alt text](./book_1_img/image-20.png)</br>
 
 </br>
 
 - Prismatic Coeflcient, C,. The prismatic coefficient, sometimes called longitudinal prismatic coefficient, or simply longitudinal coefficient,gives the ratio between the volume of displacement V and a prism whose length equals the length of the ship and whose cross section equals the midship section area.</br>
-![Alt text](image-22.png)</br>
+![Alt text](./book_1_img/image-22.png)</br>
 <span style="background-color: #EC5800">This coefficient is a measure of the longitudinal distribution of a ship’s buoyancy.</span></br>
 If two ships with equal length and displacement have different prismatic coefficients, the one with the smaller value of C, will have the larger midship sectional area ( B . T . C,) and hence a larger concentration of the volume of displacement amidships. (See Fig. 12.)</br>
 <span style="background-color: #EC5800">Prismatic coefficient is a frequently used parameter in studies of speed and power (Chapter V).</span> Usual range of values is from about 0.50 to about 0.90. A vessel with a low value of C, (or C,) is said to have a fine hull form, while one with a high value of C, has a full hull form.
@@ -203,23 +203,23 @@ If two ships with equal length and displacement have different prismatic coeffic
 </br>
 
 - Waterplane Coeflcient, C,. The waterplane coefficient is defined as the ratio between the area of the waterplane A , and the area of a circumscribing rectangle.</br>
-![Alt text](image-23.png)</br>
+![Alt text](./book_1_img/image-23.png)</br>
 
 </br>
 
 - Vertical Prismatic Coeflcient, Cvp. This coefficient is the ratio of the volume of a vessel’s displacement to the volume of a cylindrical solid with a depth equal to the vessel’s molded mean draft and with a uniform horizontal cross section equal to the area of the vessel’s waterplane at that draft.</br>
-![Alt text](image-24.png)</br>
+![Alt text](./book_1_img/image-24.png)</br>
 
 </br>
 
 - Volumetric Coeflcient, C,. This coefficient (or fatness ratio) is defined as the volume of displacement divided by the cube of one tenth of the vessel’s length </br>
-![Alt text](image-25.png)</br>
+![Alt text](./book_1_img/image-25.png)</br>
 <span style="background-color: #EC5800">These coefficients express the displacement of a vessel in terms of its length. Ships with low volumetric coefficients might be said to be “thin”, while those with a high coefficient are “fat.”</span> Values of the volumetric coefficient range from about 1.0 for light, long ships like destroyers, to 15 for short heavy ships like trawlers.
 
 </br>
 
 - Ratios of Dimensions. The three principal dimensions of the underwater body are sometimes referred to in ratio form.<br>
-![Alt text](image-26.png)</br>
+![Alt text](./book_1_img/image-26.png)</br>
 
 </br>
 
@@ -229,12 +229,12 @@ If two ships with equal length and displacement have different prismatic coeffic
 <span style="background-color: #EC5800"> If this should happen after preliminary lines are faired, it seemingly requires that a completely new set of lines be drawn and faired. However, by making systematic changes in the offsets, it may be possible to accomplish the desired transformation without disturbing the fairness of the lines, and without necessitating complete recalculation of the curves of form.</span></br>
 For example, a simple respacing of body plan stations leads to an elongation or shortening of the lines at constant breadth and draft, with displacement changing in direct proportion to the station spacing; the form coefficients C,,C,, C,, Cwpand C, will not change, and the fairness of lines will be preserved.</br>
 The combined effect of two or more of such changes is multiplicative. For example, if the length of the vessel were to increase 10 percent by an increase in station spacing, the breadth were to increase 5 percent by an increase in halfbreadths, and the draft were to decrease 8percent by a reduction in waterline spacing, the resulting volume of displacement V, would be obtained from V,, the initial volume of displacement, by </br>
-![Alt text](image-27.png)</br>
+![Alt text](./book_1_img/image-27.png)</br>
 A new body plan, waterlines plan and profile could be drawn directly, in which new longitudinal distances x, are obtained from old longitudinal distances x, by z2= 1.1x,;new halfbreadths y, are obtained from old halfbreadths y, by yz = 1.05 y,; etc
-![Alt text](image-28.png)</br>
+![Alt text](./book_1_img/image-28.png)</br>
 <span style="background-color: #EC5800">Methods have been developed (Rawson & Tupper, 1983) to estimate modifications to the geometrical quantities on the basis of partial derivatives.</span></br>
 A traditional and practical way of shifting the LCBof a new design without changing displacement isknown as the method of swinging stations. (Fig. 13)</br>
-![Swinging stations method of modifying sectional area curve](image-29.png)
+![Swinging stations method of modifying sectional area curve](./book_1_img/image-29.png)
 
 
 

@@ -67,9 +67,9 @@ Another function is to control the simulation process, such as starting, ending,
 through graphic user interface, which is developed using QT.
 The simulation scenario and control commands are eventually sent to the simulation engine subsystem.
 
-![Alt text](image.png)
+![Alt text](./note_1_img/image.png)
 
-![Alt text](image-1.png)
+![Alt text](./note_1_img/image-1.png)
 
 
 #### 4. Vehicle dynamic simulation module
@@ -91,14 +91,14 @@ and detects those reflected from object surfaces. And the ultrasound beams can b
 Here, the ultrasound beams of sonar are described using rays in UE4, as shown in Figure 11.
 Ray detection is one of very useful features in UE. It can return the distance between AUV and obstacle automatically,
 which can be used to model the sonar.
-![Alt text](image-2.png)
+![Alt text](./note_1_img/image-2.png)
 
 ### 2.1.4. Three-Dimensional Visualization Subsystem
 In order to improve the display effect, a number of plug-ins are used in the subsystem, such as plug-ins named Oceanology
 and Ultra Dynamic Sky. The plug-in named Oceanology is used to render the marine environment, and Ultra Dynamic Sky
 is used to render the sky at different times and display the effect of different weather.
 
-![Alt text](image-3.png)
+![Alt text](./note_1_img/image-3.png)
 
 #### Results
 
@@ -108,4 +108,4 @@ due to complex environmental impacts such as ocean currents, but the trend is to
 there are some other differences between real experiments and simulations, such as greater steady-state error, higher overshoot,
 and longer transition time from 0 to 90 degrees.
 
-![Alt text](image-4.png)
+![Alt text](./note_1_img/image-4.png)

@@ -75,11 +75,11 @@ It is very interesting to have such a tool to reduce the cost and the time dedic
 
 ### 2.1. The vehicle model
 
-![Alt text](image-6.png)
+![Alt text](./note_4_img/image-6.png)
 
 
 For the sake of battery saving and thus for the autonomy, the SeaExplorer does not rely on an energy consuming means of propulsion. The embedded AHRS (Attitude Heading Roll Sensor) provides measures of the roll angle, the pitch angle and the heading whereas the depth is separately measured by a depth sensor. So Fig. 2 gives a glimpse of the way the glider works with regards to its control level.
-![Alt text](image-7.png)
+![Alt text](./note_4_img/image-7.png)
 
 Underwater displacement is done by ‘‘hovering’’ between the surface and the desired depth, using gravity to descend along the water
 column and Archimede’s force to rise.
@@ -87,9 +87,9 @@ column and Archimede’s force to rise.
 For the ascending phase, the bladder is inflated thanks to a motorpump which is controlled to generate a constant flow value independently of the surrounding pressure due to the depth of the vehicle (nevertheless the energy consumption of this actuator varies with this pressure thus the depth). The duration of inflation is modulated to reach the desired value of buoyancy.
 
 A summary of the main specifications of the SeaExplorer glider can be found in the Table 1.
-![Alt text](image-8.png)
+![Alt text](./note_4_img/image-8.png)
 
-![Alt text](image-9.png)
+![Alt text](./note_4_img/image-9.png)
 
 Over one ‘‘yo’’, the glider follows different navigation sequences, and thus different phases numbered from 100 to 118:
 
@@ -100,7 +100,7 @@ Over one ‘‘yo’’, the glider follows different navigation sequences, and 
 - State 118 (‘‘Inflecting up’’): once depth or altitude reached, the glider starts inflecting up. The ballast is adjusted (oil bladder inflated) to make the glider buoyant and the moving mass moves backward to make it pitch up.
 - State 117 (‘‘Going up’’): the ballast is kept in the same position while returning to the surface. The glider controls the pitch angle and the heading.
 
-![Alt text](image-10.png)
+![Alt text](./note_4_img/image-10.png)
 
 
 #### 2.1.3. Hydrodynamic and energy consumption
@@ -119,7 +119,7 @@ By considering the drag forces 𝐷𝑥, 𝐷𝑦, the weight 𝑃 , the buoyanc
 
 Because of the non-linearity of the drag forces and the speeds, the hydrodynamic model of the SeaExplorer relies on specific tables to evaluate all its current characteristics. This accurate model provides the vertical and horizontal speeds (respectively 𝑉𝑧, 𝑉𝑥) used to estimate the underwater position of the glider during a dive.
 
-![Alt text](image-11.png)
+![Alt text](./note_4_img/image-11.png)
 
 
 The intrinsic mechanical parameters of the vehicle are included in the hydrodynamic model. The outputs of this block are related to the glider displacement either estimated or measured. During the going up and down phases, the energy consumption is essentially due to the payload. The rejection of potential disturbances ensured by the heading and the pitch controllers is negligible.
@@ -138,7 +138,7 @@ Such a modeling is relevant for the simulator we aim at designing because its go
 
 Before starting a glider mission, a vehicle configuration has to be defined.
 Presently, the planning and navigation tasks are done by a pilot all along the mission to define the steering of the gliders through the mission management system named GLIMPSE.
-![Mission management system](image-12.png)
+![Mission management system](./note_4_img/image-12.png)
 
 #### MAP PART
 
@@ -150,7 +150,7 @@ Defined in 4D (3D + time), they play a key role in the mission preparation and s
 Finally, before starting a mission, a consumption model of the SeaExplorer glider is used in order to compute the total number of segments achievable. A Battery Management System (BMS) is also embedded on the battery pack of the glider. It allows pilots to retrieve information about the battery level during the mission through the mission management system. The mission plan can be adapted according to the remaining energy.
 
 Fig. 7 depicts the three functional levels of behavior of the glider relative to its current mission (planning), relative to its environment (navigation) and relative to its own internal states and its actuators to make them change (control).
-![Fig. 7. SeaExplorer functional levels (Planning, Navigation, Control).](image-13.png)
+![Fig. 7. SeaExplorer functional levels (Planning, Navigation, Control).](./note_4_img/image-13.png)
 
 
 ## 3. Simulator specifications
@@ -204,7 +204,7 @@ The global architecture is structured in three levels called:
 - ‘‘Dive level’’
 - ‘‘Glider level’’
 
-![Fig. 8. Overview of the simulator framework.](image-14.png)
+![Fig. 8. Overview of the simulator framework.](./note_4_img/image-14.png)
 
 The definition of this object is similar to the ‘‘mission plan’’ mode as explained in Section 2.2. It takes as inputs a list of target waypoints (𝑤𝑝) in the format: [𝐿𝑎𝑡𝑤𝑝, 𝐿𝑜𝑛𝑤𝑝, 𝑉𝑑], where 𝐿𝑎𝑡𝑤𝑝 (resp. 𝐿𝑜𝑛𝑤𝑝) stands for the latitude (resp. the longitude) of the target waypoint and 𝑉𝑑 the validation distance. It allows defining the navigation profiles with different flight parameters that the vehicle has to adopt during a simulated segment: [𝑉𝑧, 𝛼, 𝑧𝑡, 𝑧𝑏, 𝑧𝑠, 𝑠𝑟, 𝑡𝑠] where 𝑡𝑠 stands for the time to wait during a surfacing.
 
