@@ -1,0 +1,5 @@
+# ELÉRHETŐ SZIMULÁTOROK
+
+Az első fejezet középpontjában az áll, hogy az autonóm tengeralattjárók (AUV-k) fejlesztése viszonylag magas költségekkel jár, és a véletlen sérülés vagy elsüllyedés az AUV-k kísérletei vagy tengeri próbái során jelentős veszteségeket okozhatnak. Ebből kiindulva hangsúlyozzuk a hatékony és felhasználóbarát szimulációs rendszerek szükségességét, amelyek segítik az algoritmusok és funkciók ellenőrzését még a tényleges kísérletek vagy tengeri próbák előtt [10,11].
+
+A fejezetben kifejtjük az AUV-k szimulációjának főbb területeit, ideértve a hidrodinamikai és akusztikus érzékelőmodellezést is. Emellett bemutatjuk a már rendelkezésre álló viszonylag kiforrott szimulációs rendszereket, mint például a UWSim, UUVSimulator, Aqua Underwater Simulator, Stonefish és HoloOcean. Ezekre a szimulátorokra összpontosítva részletes elemzést végzünk, kihangsúlyozva előnyeiket és korlátaikat az AUV-k tervezése és tesztelése során.
