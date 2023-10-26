@@ -40,9 +40,16 @@ database:
   - [IEEE Xplore](https://ieeexplore.ieee.org/search/searchresult.jsp?queryText=Underwater%20Vehicle%20Simulator&highlight=true&returnFacets=ALL&returnType=SEARCH&matchPubs=true&ranges=2018_2023_Year)
 
 
-
 - [Possible public intelligence](https://publicintelligence.net/?s=submarine)
 - [Books](https://ftp.idu.ac.id/wp-content/uploads/ebook/tdg/ADNVANCED%20MILITARY%20PLATFORM%20DESIGN/?C=M;O=D)
+
+
+# Youtube videos about submarine topics
+
+- [Submarine builder channel (with optional course)](https://www.youtube.com/@CPSdrone/videos)
+- [DIY submarine building (syringes)](https://www.youtube.com/watch?v=pUba126uzvU)
+
+
 
 </br>
 </br>
