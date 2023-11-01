@@ -38,9 +38,9 @@ The weight of a ship and its contents is equal to the weight of displaced water,
 
 </br>
 
-<a id="displacement-and-weight-relationships"></a>
+<a id="displacement-and-center-of-buoyancy"></a>
 
-### Displacementand Center of Buoyancy
+### Displacement and Center of Buoyancy
 
 <span style="background-color: #EC5800">The volume of the underwater portion of a vessel may be calculated by methods outlined in Sections 4 and 5. The result is known as the volume of displacement, V (Gradient operator / nabla symbol), up to the waterline at which the vessel is floating.</span></br>
 If we know the mass density of the water, p, in which a ship is floating, we can calculate the weight of the displaced fluid, or the displacement weight, W: W = pgV
@@ -52,7 +52,7 @@ If we know the mass density of the water, p, in which a ship is floating, we can
 However, adherance to the SI system obliges one to think of ship displacement, A, in mass units, rather than weight (force) units, with the unit of mass being a multiple of grams, such as a kilogram (1000 grams), or a metric ton (1000 kilograms) t, sometimes written as “tonne.”3 Hence, in the SI system, mass displacement, A = p V
 where A is in metric tons, V is in m3, p = 1.00 t/m3 (equal to kg/L) in FW and p = 1.026 t/m3 in SW.
 
-Since the mass density of fresh water is 1.0 kg/ L or 1.0t/m3, density is numerically the same in SI units as specificgravity, y (at standard temperature). Hence, it may be more convenient when using SI units to use, A = y V .
+Since the mass density of fresh water is 1.0 kg/ L or 1.0t/m3, density is numerically the same in SI units as specific gravity, y (at standard temperature). Hence, it may be more convenient when using SI units to use, A = y V .
 
 Sometimes naval architects prefer (as in Chapter 11) to make use of the reciprocal of density, or specific volume, 6 (volume per unit mass), in their calculations. For fresh water, of course, 6 = 1.00 m3/t; for salt water 6 = 111.026 = 0.975 m3/t.
 
@@ -258,7 +258,7 @@ A traditional and practical way of shifting the LCBof a new design without chang
 
 - [ ] Subchapter under "Basics":
   - [ ] [Archimedes’ Principle](#archimedes-principle)
-  - [ ] [Displacement and Weight Relationships](#displacement-and-weight-relationships)
+  - [ ] [Displacement and Center of Buoyancy](#displacement-and-center-of-buoyancy)
   - [ ] [Effect of Density of Medium](#effect-of-density-of-medium)
   - [ ] Mention [Displacement vs. Weight Estimate](#displacement-vs-weight-estimate)
 
